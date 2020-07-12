@@ -21,5 +21,10 @@ Usage of fserver:
   -dir string
         www root directory (default "/tmp/www")
 ```
+example:  
+```bash
+sudo fserver -dir /tmp/share -addr 192.168.0.5:80
+```
+
 ## License
 MIT
